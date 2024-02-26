@@ -3,7 +3,6 @@ on: push
 jobs:
   test:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/head/main' 
     steps:
       - uses: actions/checkout@v4.1.1
       - name: Run Unit Tests
