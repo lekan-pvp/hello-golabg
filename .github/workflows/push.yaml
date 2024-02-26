@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        name: Run Unit Tests
+      - name: Run Unit Tests
         run: GOOS=linux GOARCH=amd64 go test
