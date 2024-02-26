@@ -6,4 +6,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3 
         name: Run Unit Tests
-        run: go test
+        run: GOOS=linux GOARCH=amd64 go test
