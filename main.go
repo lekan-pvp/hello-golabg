@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// version of app
 var version = "dev"
 
 func main() {
