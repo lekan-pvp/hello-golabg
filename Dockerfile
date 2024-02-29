@@ -8,7 +8,7 @@ COPY . .
 
 RUN go mod tidy
 
-RUN CGO_ENABLED=0 GOOS=linux go build -o /main -ldflags=-X=main.version=${VERSION} main.go
+RUN CGO_ENABLED=0 GOOS=linux go build -o /main  main.go
 
 CMD ["/main"]
 
