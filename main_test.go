@@ -3,7 +3,7 @@ package main
 import "testing"
 
 func TestHello(t *testing.T) {
-	want := "Hello Golang"
+	want := "Hello Go"
 
 	got := hello()
 
